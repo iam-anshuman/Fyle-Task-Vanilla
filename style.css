@@ -1,0 +1,229 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10vw;
+}
+
+.bg-FA{
+    background-color: #FAFAFA;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container{
+    position: relative;
+    cursor: pointer;
+}
+
+.slide-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.img-container:hover .img-banner {
+    display: block;
+}
+
+.img-banner{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0rem;
+    left: 0;
+    color: white;
+    background-color: #FF3147;
+}
+
+.img-banner div{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px auto;
+}
+
+.img-banner img{
+    width: 20%;
+    display: block;
+    margin: 40px auto;
+}
+
+.img-banner p{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.img-banner a{
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #FF3147;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+.carousel-dots {
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.dot-active {
+    background-color: #FF3147;
+    outline: 2px solid #FF3147;
+    outline-offset: 5px;
+}
+
+.basis-70{
+    flex-basis: 70%;
+}
+
+.basis-30{
+    flex-basis: 30%;
+}
+
+.bg-F6{
+    background-color: #F6F6F6;
+    padding: 5px 15px !important;
+}
+
+.fs-40{
+    font-size: 40px;
+}
+
+.active-sidebar{
+    background-color: #FF3147 !important;
+    color: #FFFFFF !important;
+    padding: 5px 15px !important;
+}
+
+.our-achievement{
+    background-color: #FFFFFF;
+    padding: 50px;
+    cursor: pointer;
+}
+.our-achievement:hover{
+    box-shadow: #672C2C1F 0px 0px 20px 0px;
+} 
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.Quotemarks{
+    top: -10px;
+    left: 20px;
+    z-index: -10;
+}
+
+.quotation{
+    font-weight:600;
+    font-size: 20px;
+}
+
+.author-name{
+     color: #FF3147;
+     font-weight: 700;
+     font-size: 20px;
+}
+
+.author-post{
+    font-size: 20px;
+    color: #808080;
+
+}
+
+footer{
+    padding: 10vh 5vw;
+}
+
+.contact-us-form {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    width: 30vw;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-field input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.input-field input:focus {
+    outline: none;
+    border-bottom-color: #0000009e;
+}
+
+.input-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 0;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    color: #aaa;
+    font-size: 16px;
+}
+
+.input-field input:focus + label,
+.input-field input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #0000009e;
+}
+
+#TnC{
+    accent-color: #FF3147;
+    position: relative;
+    top: -10px;
+    margin-right: 10px;
+}
